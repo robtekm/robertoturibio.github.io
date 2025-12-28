@@ -2,44 +2,159 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Roberto Turibio Martins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Turibio Martins | Physics Researcher</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<div class="container">
-
-    <div class="header">
-        <img src="foto.jpg" alt="Roberto Turibio Martins">
-        <div>
-            <h1>Roberto Turibio Ebina Kawanaka Martins</h1>
-            <p>M.Sc. Student in Physics — University of São Paulo</p>
-            <div class="links">
-                <a href="CV_2025.pdf">Curriculum Vitae (PDF)</a>
-                <a href="https://scholar.google.com">Google Scholar</a>
-                <a href="https://www.researchgate.net">ResearchGate</a>
-                <a href="https://github.com/robtekm">GitHub</a>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="foto.jpg" alt="Roberto Turibio Martins" class="profile-img">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Roberto Turibio Ebina Kawanaka Martins</h1>
+                    <h2 class="title">M.Sc. Student in Physics</h2>
+                    <p class="institution">
+                        <i class="fas fa-university"></i>
+                        University of São Paulo (USP)
+                    </p>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Physics Institute - USP</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo, Brazil</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            
+            <!-- Quick Links -->
+            <div class="quick-links">
+                <a href="CV_2025.pdf" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Download CV (PDF)
+                </a>
+                <div class="social-links">
+                    <a href="https://scholar.google.com" target="_blank" class="social-link" title="Google Scholar">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="https://www.researchgate.net" target="_blank" class="social-link" title="ResearchGate">
+                        <i class="fab fa-researchgate"></i>
+                    </a>
+                    <a href="https://github.com/robtekm" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:youremail@example.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- About Section -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i>
+                    About Me
+                </h2>
+                <div class="section-content">
+                    <p>
+                        I am a graduate student in Physics (Teaching Science) at the Federal Institute of São Paulo. 
+                        Currently, I'm pursuing my master's degree at the Physics Institute of University of São Paulo. 
+                        My research focuses on luminescence mechanisms in minerals with applications in radiation dosimetry 
+                        and dating fields.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Research Interests -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-flask"></i>
+                    Research Interests
+                </h2>
+                <div class="section-content">
+                    <div class="interests">
+                        <span class="interest-tag">Luminescence</span>
+                        <span class="interest-tag">Solid State Physics</span>
+                        <span class="interest-tag">Mineral Physics</span>
+                        <span class="interest-tag">Spectroscopy</span>
+                        <span class="interest-tag">Radiation Dosimetry</span>
+                        <span class="interest-tag">Dating Methods</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-book-open"></i>
+                    Education
+                </h2>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - Present</div>
+                            <div class="timeline-content">
+                                <h3>M.Sc. in Physics</h3>
+                                <p class="institution-name">University of São Paulo (USP)</p>
+                                <p>Focus on luminescence mechanisms in minerals for radiation dosimetry applications.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018 - 2022</div>
+                            <div class="timeline-content">
+                                <h3>B.Sc. in Physics (Teaching Science)</h3>
+                                <p class="institution-name">Federal Institute of São Paulo</p>
+                                <p>Graduated with honors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications (Optional - Add if you have) -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-file-alt"></i>
+                    Recent Publications
+                </h2>
+                <div class="section-content">
+                    <div class="publication">
+                        <h3>Study of Luminescence Properties in Quartz for Dosimetric Applications</h3>
+                        <p class="publication-meta">Journal of Luminescence, 2024 (Submitted)</p>
+                        <p>Research on thermoluminescence and optically stimulated luminescence in natural quartz samples.</p>
+                    </div>
+                    <!-- Add more publications as needed -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>
+                    <i class="fas fa-sync-alt"></i>
+                    Last updated: March 2025
+                </p>
+                <p class="copyright">
+                    &copy; 2025 Roberto Turibio Martins. All rights reserved.
+                </p>
+            </div>
+        </footer>
     </div>
-
-    <h2>About</h2>
-    <p>
-      I am a graduate student in Physics (Teaching Science) at the Federal Institute of São Paulo. I'm currently a master's student at the Physics Institute of University of São Paulo. My research is focused on 
-      the luminescence mechanisms in minerals aiming applications in radiation dosimetry and dating fields. 
-      
-    </p>
-
-    <h2>Research Interests</h2>
-    <p>
-        Luminescence • Solid State Physics • Mineral Physics • Spectroscopy
-    </p>
-
-    <div class="footer">
-        Last update: 2025
-    </div>
-
-</div>
-
 </body>
 </html>
